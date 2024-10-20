@@ -292,7 +292,6 @@ body {
   width: 40%;
 }
 
-
 .header {
   position: fixed;
   top: 0;
@@ -386,7 +385,7 @@ body {
 .navbar-list {
   max-width: 400px;
   width: 85%;
-  margin: auto ;
+  margin: auto;
   padding-inline: 10px;
   opacity: 0;
   transition: 0.5s ease;
@@ -422,10 +421,6 @@ body {
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
-
-.home-page{
-  width: 100vw;
-}
 
 .hero {
   background-color: var(--eerie-black-1);
@@ -528,7 +523,7 @@ body {
   transform: rotate(0.25turn);
   position: absolute;
   top: 55%;
-  left: 100%;
+  left: 85%;
   z-index: -1;
 }
 

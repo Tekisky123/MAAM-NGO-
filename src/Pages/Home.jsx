@@ -10,7 +10,7 @@ import TestimonialSection from "../Components/TestimonialSection";
 
 const Home = () => {
   return (
-    <div className="home-page">
+    <div className="home-page ">
       <HeroSection />
       <AboutSection/>
       <CTASection/>
