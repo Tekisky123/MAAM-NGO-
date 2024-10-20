@@ -66,7 +66,7 @@ const Header = () => {
       <div className="container">
         <h1>
           <Link to="/" className="logo">
-            LOGO
+            MAAM
           </Link>
         </h1>
 
@@ -119,18 +119,19 @@ const Header = () => {
           </ul>
         </nav>
         <div className="header-action">
-          <select
-            name="language"
-            className="lang-switch"
-            onChange={handleLanguageChange}
-            value={i18n.language} // Set the selected value based on the current language
-          >
-            <option value="en">English</option>
-            <option value="ur">Urdu</option>
-            <option value="mr">Marathi</option>
-            <option value="hi">Hindi</option>
-          </select>
-         
+          <div className="language-selector">
+            <select
+              name="language"
+              className="lang-switch"
+              onChange={handleLanguageChange}
+              value={i18n.language} // Set the selected value based on the current language
+            >
+              <option value="en">English</option>
+              <option value="ur">Urdu</option>
+              <option value="mr">Marathi</option>
+              <option value="hi">Hindi</option>
+            </select>
+          </div>
 
           <Link to="/donation">
             <button className="btn btn-primary donation-btn">
@@ -140,12 +141,12 @@ const Header = () => {
           </Link>
         </div>
         <button
-            className="nav-open-btn"
-            aria-label="Open Menu"
-            data-nav-open-btn
-          >
-            <IonIcon icon={menuOutline} />
-          </button>
+          className="nav-open-btn"
+          aria-label="Open Menu"
+          data-nav-open-btn
+        >
+          <IonIcon icon={menuOutline} />
+        </button>
       </div>
     </header>
   );

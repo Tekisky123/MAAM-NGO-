@@ -1036,18 +1036,16 @@ body {
 /**
  * responsive for larger than 450px screen
  */
- @media (max-width: 500px) {
-  .donation-btn{
+@media (max-width: 500px) {
+  .donation-btn {
     display: none;
-   }
-
+  }
 }
 
 @media (min-width: 450px) {
   /**
    * CUSTOM PROPERTY
    */
-   
 
   :root {
     /**
@@ -1717,4 +1715,51 @@ textarea.input-field {
   .form-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.language-selector {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-switch {
+  appearance: none; /* Remove default styles */
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  color: white; /* Text color */
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: all 0.3s ease; /* Smooth transition */
+  backdrop-filter: blur(10px); /* Glass effect */
+}
+.lang-switch option {
+  background-color: #2c2c2c; /* Transparent background */
+  color: white; /* Text color */
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Border color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Custom arrow */
+.lang-switch::after {
+  content: "▼"; /* Arrow symbol */
+  position: absolute;
+  right: 10px; /* Positioning */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust position */
+  color: #ffffff; /* Arrow color */
+  background: rgba(255, 255, 255, 0.1) !important; /* Transparent background */
+}
+
+/* Change border color on hover */
+.lang-switch:hover {
+  border-color: rgba(255, 255, 255, 0.8); /* Lighter border on hover */
+}
+
+/* Change border color on focus */
+.lang-switch:focus {
+  border-color: hsla(86, 45%, 54%, 0.5); /* Blue border on focus */
+  box-shadow: 0 0 5px hsla(86, 45%, 54%, 0.5); /* Shadow effect */
 }
