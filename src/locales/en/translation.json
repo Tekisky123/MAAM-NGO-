@@ -1,0 +1,167 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Service": "Service",
+  "Donate": "Donate",
+  "Event": "Event",
+  "Contact": "Contact",
+  "Donation": "Donation",
+  "welcome": "Welcome to MAAM",
+  "missionName": "Maulana Azad",
+  "organizationName": "Alpsankhyak Mission",
+  "missionDescription": "At MAAM, we are committed to empowering minorities and marginalized communities by providing access to essential services such as education, healthcare, and financial support. Together, we can make a lasting difference in the lives of those in need by fostering inclusivity and hope.",
+  "makeDonation": "Make a Donation",
+  "safeShelter": "Safe Shelter",
+  "safeShelterDescription": "We provide safe and secure housing for displaced families, ensuring dignity and protection.",
+  "cleanWater": "Clean Water",
+  "cleanWaterDescription": "Access to clean and safe drinking water is a fundamental right, and we ensure it reaches those in need.",
+  "environmentalCare": "Environmental Care",
+  "environmentalCareDescription": "MAAM focuses on environmental sustainability, promoting green initiatives within communities.",
+  "disasterRelief": "Disaster Relief",
+  "disasterReliefDescription": "Our teams respond to natural disasters, providing relief and support to affected populations.",
+  "about": {
+    "welcome": "Welcome to MAAM",
+    "missionName": "Maulana Azad",
+    "organizationName": "Minority Mission",
+    "missionDescription": "At MAAM, we strive to uplift the underprivileged through food drives, educational programs, and access to medical care. Our mission is to ensure that every member of our community, regardless of their background, has the opportunity to thrive.",
+    "tab": {
+      "mission": {
+        "title": "Our Mission",
+        "content": [
+          "Charity For Food Drives",
+          "Educational Assistance",
+          "Clean Water Initiatives",
+          "Medical Aid Programs"
+        ]
+      },
+      "vision": {
+        "title": "Our Vision",
+        "content": [
+          "Sustainable Community Growth",
+          "Equal Opportunity Programs",
+          "Healthcare For All"
+        ]
+      }
+    },
+    "aboutTitle": "About MAAM",
+    "supportHumanity": "Lend a Hand to Support Humanity",
+    "learnMore": "Learn More About Us"
+  },
+  "cta_section": {
+      "title": "324+ Trusted Global Partners",
+      "button_text": "Become a Partner",
+      "image_alt": "Fox"
+    },
+    "service_section": {
+      "subtitle": "What We Do",
+      "title": "We Work Differently to keep The World Safe",
+      "services": [
+        {
+          "title": "Save",
+          "description": "Tempor incididunt ut labores dolore magna suspene",
+          "read_more": "Read More"
+        },
+        {
+          "title": "Save Ecology",
+          "description": "Tempor incididunt ut labores dolore magna suspene",
+          "read_more": "Read More"
+        },
+        {
+          "title": "Tree Plantation",
+          "description": "Tempor incididunt ut labores dolore magna suspene",
+          "read_more": "Read More"
+        },
+        {
+          "title": "Clear Ocean",
+          "description": "Tempor incididunt ut labores dolore magna suspene",
+          "read_more": "Read More"
+        }
+      ]
+    },
+    "service": {
+    "whatWeDo": "What We Do",
+    "title": "We Work Differently to keep The World Safe",
+    "cards": [
+      {
+        "title": "Save......",
+        "text": "Tempor incididunt ut labores dolore magna suspene"
+      },
+      {
+        "title": "Save Ecology",
+        "text": "Tempor incididunt ut labores dolore magna suspene"
+      },
+      {
+        "title": "Tree Plantation",
+        "text": "Tempor incididunt ut labores dolore magna suspene"
+      },
+      {
+        "title": "Clear Ocean",
+        "text": "Tempor incididunt ut labores dolore magna suspene"
+      }
+    ]
+  },
+  "donate": {
+    "sectionTitle": "Raise Hand To Save ........",
+    "raised": "Raised",
+    "goal": "Goal",
+    "raise": "Raise",
+    "toGo": "To Go",
+    "donation": "Donation"
+  },
+  "testimonials": {
+    "title": "Our Testimonials",
+    "subtitle": "What People Say About Our Organization",
+    "avatarAlt": "David S. Neuman",
+    "quote": "Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaquesa quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo enimpsam voluptatem",
+    "name": "Suleman Khan",
+    "titleName": "Business Manager",
+    "bannerAlt": "Rhinoceros"
+  },
+  "events": {
+    "title": "Our Most Popular Causes For Building Fund",
+    "subtitle": "Event & Program",
+    "eventList": [
+      {
+        "id": 1,
+        "date": "01-05",
+        "month": "Jan",
+        "subtitle": "Ocean Water",
+        "title": "Far from the countries Vokalia and Consonantia 2022",
+        "text": "Sit amet consectetur adipiscing elit sed do eiusmod tempor"
+      },
+      {
+        "id": 2,
+        "date": "02-23",
+        "month": "Feb",
+        "subtitle": "Ocean Water",
+        "title": "Far from the countries Vokalia and Consonantia 2022",
+        "text": "Sit amet consectetur adipiscing elit sed do eiusmod tempor"
+      },
+      {
+        "id": 3,
+        "date": "03-27",
+        "month": "Mar",
+        "subtitle": "Ocean Water",
+        "title": "Far from the countries Vokalia and Consonantia 2022",
+        "text": "Sit amet consectetur adipiscing elit sed do eiusmod tempor"
+      }
+    ],
+    "learnMore": "Learn More Us",
+    "viewEvents": "View Events"
+  },
+  "donation": {
+    "heading": "Donate & Make a Difference",
+    "payViaQR": "Pay via QR",
+    "getBankDetails": "Get Bank Details",
+    "scanQRCode": "Scan the QR code to donate via UPI!",
+    "form": {
+      "heading": "Donation Form",
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Your Phone Number",
+      "amount": "Donation Amount",
+      "message": "Any Message",
+      "submit": "Submit & Open WhatsApp"
+    }
+  }
+}
