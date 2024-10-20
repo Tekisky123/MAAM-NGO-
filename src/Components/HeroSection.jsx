@@ -9,6 +9,7 @@ import {
 
 import subtitle from "../assets/images/subtitle-img-white.png";
 import { useTranslation } from "react-i18next"; // Import useTranslation
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   const { t } = useTranslation(); // Initialize translation
@@ -20,23 +21,27 @@ const HeroSection = () => {
         <div className="container">
           <p className="section-subtitle">
             <img src={subtitle} width="32" height="7" alt="Wavy line" />
-            <span>{t('welcome')}</span> {/* Translate welcome message */}
+            <span>{t("welcome")}</span> {/* Translate welcome message */}
           </p>
 
           <h2 className="h1 hero-title">
             <strong>
-              {t('missionName')} <br /> {t('organizationName')} {/* Translate mission and organization name */}
+              {t("missionName")} <br /> {t("organizationName")}{" "}
+              {/* Translate mission and organization name */}
             </strong>
           </h2>
 
           <p className="hero-text">
-            {t('missionDescription')} {/* Translate mission description */}
+            {t("missionDescription")} {/* Translate mission description */}
           </p>
 
-          <button className="btn btn-primary">
-            <span>{t('makeDonation')}</span> {/* Translate button text */}
-            <IonIcon icon={heartOutline} aria-hidden="true" />
-          </button>
+          <Link to="/donation">
+            {" "}
+            <button className="btn btn-primary">
+              <span>{t("makeDonation")}</span> {/* Translate button text */}
+              <IonIcon icon={heartOutline} aria-hidden="true" />
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -50,8 +55,10 @@ const HeroSection = () => {
                 <IonIcon icon={shieldCheckmarkOutline} />
               </div>
               <div>
-                <h3 className="h4 item-title">{t('safeShelter')}</h3> {/* Translate feature title */}
-                <p className="item-text">{t('safeShelterDescription')}</p> {/* Translate feature description */}
+                <h3 className="h4 item-title">{t("safeShelter")}</h3>{" "}
+                {/* Translate feature title */}
+                <p className="item-text">{t("safeShelterDescription")}</p>{" "}
+                {/* Translate feature description */}
               </div>
             </li>
 
@@ -61,8 +68,8 @@ const HeroSection = () => {
                 <IonIcon icon={waterOutline} />
               </div>
               <div>
-                <h3 className="h4 item-title">{t('cleanWater')}</h3>
-                <p className="item-text">{t('cleanWaterDescription')}</p>
+                <h3 className="h4 item-title">{t("cleanWater")}</h3>
+                <p className="item-text">{t("cleanWaterDescription")}</p>
               </div>
             </li>
 
@@ -72,8 +79,8 @@ const HeroSection = () => {
                 <IonIcon icon={leafOutline} />
               </div>
               <div>
-                <h3 className="h4 item-title">{t('environmentalCare')}</h3>
-                <p className="item-text">{t('environmentalCareDescription')}</p>
+                <h3 className="h4 item-title">{t("environmentalCare")}</h3>
+                <p className="item-text">{t("environmentalCareDescription")}</p>
               </div>
             </li>
 
@@ -83,8 +90,8 @@ const HeroSection = () => {
                 <IonIcon icon={snowOutline} />
               </div>
               <div>
-                <h3 className="h4 item-title">{t('disasterRelief')}</h3>
-                <p className="item-text">{t('disasterReliefDescription')}</p>
+                <h3 className="h4 item-title">{t("disasterRelief")}</h3>
+                <p className="item-text">{t("disasterReliefDescription")}</p>
               </div>
             </li>
           </ul>
