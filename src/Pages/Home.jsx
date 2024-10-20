@@ -10,7 +10,7 @@ import TestimonialSection from "../Components/TestimonialSection";
 
 const Home = () => {
   return (
-    <>
+    <div className="home-page">
       <HeroSection />
       <AboutSection/>
       <CTASection/>
@@ -20,7 +20,7 @@ const Home = () => {
       <PartnerSection/>
       <EventSection/>
       <SocialPosts/>
-    </>
+    </div>
   );
 };
 

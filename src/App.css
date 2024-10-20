@@ -292,9 +292,10 @@ body {
   width: 40%;
 }
 
+
 .header {
   position: fixed;
-  top: 1px;
+  top: 0;
   left: 0;
   width: 100%;
   background-color: transparent;
@@ -421,6 +422,10 @@ body {
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
+
+.home-page{
+  width: 100vw;
+}
 
 .hero {
   background-color: var(--eerie-black-1);
