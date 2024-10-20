@@ -365,10 +365,10 @@ body {
 
 .nav-close-btn {
   color: var(--white);
-  font-size: 2.4rem;
+  font-size: 3.2rem;
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 40px;
 }
 
 .nav-close-btn ion-icon {
@@ -384,8 +384,8 @@ body {
 
 .navbar-list {
   max-width: 400px;
-  width: 100%;
-  margin: auto;
+  width: 85%;
+  margin: auto ;
   padding-inline: 10px;
   opacity: 0;
   transition: 0.5s ease;
@@ -393,6 +393,7 @@ body {
   background-color: #212121;
   z-index: 99;
   margin-top: 40px;
+  border: 1px solid gray;
 }
 
 .navbar.active .navbar-list {
