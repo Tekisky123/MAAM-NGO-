@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import subtitleImg from "../assets/images/subtitle-img-green.png";
+import { Link } from "react-router-dom";
 
 const EventSection = () => {
   const { t } = useTranslation();
@@ -34,23 +35,27 @@ const EventSection = () => {
                     <p className="card-text">{event.text}</p>
                   </div>
 
-                  <button className="btn btn-white">
-                    <span>{t("events.viewEvents")}</span>
-                    <ion-icon
-                      name="arrow-forward"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </button>
+                  <Link to="/event">
+                    <button className="btn btn-white">
+                      <span>{t("events.viewEvents")}</span>
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </button>
+                  </Link>
                 </div>
               </div>
             </li>
           ))}
         </ul>
 
-        <button className="btn btn-secondary">
-          <span>{t("events.learnMore")}</span>
-          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-        </button>
+        <Link to="/about">
+          <button className="btn btn-secondary">
+            <span>{t("events.learnMore")}</span>
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </Link>
       </div>
     </section>
   );

@@ -1,99 +1,118 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
-import "../assets/Styles/AboutUs.css"; // Link to your custom CSS
+import { useTranslation } from "react-i18next"; // Importing useTranslation hook
+import Slider from "react-slick";
+import { FaUserTie, FaUserCircle, FaUser } from "react-icons/fa"; // Importing icons
+import "../assets/Styles/AboutUs.css";
+import img1 from "../assets/images/IMG-20241013-WA0034.jpg";
+import img2 from "../assets/images/IMG-20241013-WA0035.jpg";
+import img3 from "../assets/images/IMG-20241013-WA0037.jpg";
+import img4 from "../assets/images/IMG-20241013-WA0038.jpg";
 
 const AboutUs = () => {
+  const { t } = useTranslation();
+
   useEffect(() => {
-    document.title = "About Us | MAAM"; // Set the page title
-  }, []);
+    document.title = t("about1.title") + " | MAAM NGO";
+  }, [t]);
+
+  const sliderSettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    adaptiveHeight: true,
+  };
 
   return (
-    <div className="about-us-page">
-      {/* Hero Section */}
-      <section className="hero-section">
-        <div className="about-container">
-          <h1>About MAAM</h1>
-          <p>Empowering communities through healthcare and social support.</p>
+    <>
+      <section className="about-section">
+        <div className="slider-section">
+          <Slider {...sliderSettings}>
+            <div className="slider-item">
+              <img src={img1} alt="Slide 1" />
+              <div className="caption">{t("about1.slider.slide1")}</div>{" "}
+              {/* Translated text */}
+            </div>
+            <div className="slider-item">
+              <img src={img2} alt="Slide 2" />
+              <div className="caption">{t("about1.slider.slide2")}</div>
+            </div>
+            <div className="slider-item">
+              <img src={img3} alt="Slide 3" />
+              <div className="caption">{t("about1.slider.slide3")}</div>
+            </div>
+            <div className="slider-item">
+              <img src={img4} alt="Slide 4" />
+              <div className="caption">{t("about1.slider.slide4")}</div>
+            </div>
+          </Slider>
         </div>
       </section>
 
-      {/* Mission & Vision Section */}
-      <section className="mission-vision-section">
-        <div className="container">
-          <div className="mission-vision-text">
-            <h2>Our Mission & Vision</h2>
-            <p>
-              MAAM is focused on delivering high-quality healthcare and social
-              services, especially to underserved communities. Our goal is to
-              make healthcare and essential services accessible for everyone.
-            </p>
-            <p>
-              From hospital work and COVID-19 relief to blood donations and
-              janaza gaadi services, we are committed to making a positive
-              impact in people’s lives.
-            </p>
+      {/* Mission Section */}
+      <div className="mission-section">
+        <h2>{t("about1.mission.title")}</h2> {/* Translated title */}
+        <p>{t("about1.mission.description")}</p> {/* Translated description */}
+      </div>
+
+      {/* Members Section */}
+      <div className="members-section">
+        <h2>{t("about1.members.title")}</h2> {/* Translated title */}
+        <div className="members-cards">
+          <div className="member-card">
+            <FaUserTie className="member-icon" />
+            <h3>{t("about1.members.secretary.name")}</h3>{" "}
+            {/* Translated name */}
+            <p>{t("about1.members.secretary.title")}</p>
+          </div>
+          <div className="member-card">
+            <FaUserCircle className="member-icon" />
+            <h3>{t("about1.members.president.name")}</h3>
+            <p>{t("about1.members.president.title")}</p>
+          </div>
+          <div className="member-card">
+            <FaUser className="member-icon" />
+            <h3>{t("about1.members.treasurer.name")}</h3>
+            <p>{t("about1.members.treasurer.title")}</p>
           </div>
         </div>
-      </section>
+      </div>
 
-      {/* Founders Section */}
-      <section className="founders-section">
-        <div className="container">
-          <h2>Our Founders</h2>
-          <div className="founder-cards">
-            <div className="founder-card">
-              <img src="/images/founder1.jpg" alt="Founder 1" />
-              <h3>Founder One</h3>
-              <p>
-                Founder One has been a pillar in social healthcare for over 20
-                years, providing leadership and inspiration to our team.
-              </p>
-            </div>
-            <div className="founder-card">
-              <img src="/images/founder2.jpg" alt="Founder 2" />
-              <h3>Founder Two</h3>
-              <p>
-                With a background in public health, Founder Two has dedicated
-                their career to uplifting communities through innovative
-                services.
-              </p>
+      {/* Testimonials Section */}
+      <div className="testimonials-section">
+        <h2>{t("about1.testimonials.title")}</h2> {/* Translated title */}
+        <Slider {...sliderSettings}>
+          <div className="testimonial-item">
+            <p>{t("about1.testimonials.test1")}</p>{" "}
+            {/* Translated testimonial */}
+            <div className="testimonial-author">
+              {t("about1.testimonials.author1")}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Achievements Section */}
-      <section className="achievements-section">
-        <div className="container">
-          <h2>Our Achievements</h2>
-          <div className="achievements-grid">
-            <div className="achievement">
-              <h3>5000+</h3>
-              <p>Lives Touched</p>
-            </div>
-            <div className="achievement">
-              <h3>150+</h3>
-              <p>Successful Projects</p>
-            </div>
-            <div className="achievement">
-              <h3>2000+</h3>
-              <p>Donations Received</p>
+          <div className="testimonial-item">
+            <p>{t("about1.testimonials.test2")}</p>
+            <div className="testimonial-author">
+              {t("about1.testimonials.author2")}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Call to Action Section */}
-      <section className="cta-section">
-        <div className="container">
-          <h2>Join Us in Our Mission</h2>
-          <p>Support our initiatives to bring lasting change to communities.</p>
-          <Link to="/donation" className="cta-button">
-            Donate Now
-          </Link>
-        </div>
-      </section>
-    </div>
+          <div className="testimonial-item">
+            <p>{t("about1.testimonials.test3")}</p>
+            <div className="testimonial-author">
+              {t("about1.testimonials.author3")}
+            </div>
+          </div>
+          <div className="testimonial-item">
+            <p>{t("about1.testimonials.test4")}</p>
+            <div className="testimonial-author">
+              {t("about1.testimonials.author4")}
+            </div>
+          </div>
+        </Slider>
+      </div>
+    </>
   );
 };
 

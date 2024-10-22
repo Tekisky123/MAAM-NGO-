@@ -1,163 +1,168 @@
-.about-us-page {
-  background-color: #1b1b1b;
-  color: #fff;
-  
-}
-
-.about-container {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 20px;
-  
-}
-
-.hero-section {
-  background-color: #2c2c2c;
-  padding: 80px 20px;
-  text-align: center;
-  
-}
-
-.hero-section h1 {
-  font-size: 3rem;
-  color: hsl(86, 45%, 54%);
-  margin-bottom: 20px;
-}
-
-.hero-section p {
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-.mission-vision-section {
-  padding: 60px 0;
-  background-color: #1b1b1b;
-}
-
-.mission-vision-text h2 {
-  font-size: 2.5rem;
-  color: hsl(86, 45%, 54%);
-  margin-bottom: 20px;
-}
-
-.mission-vision-text p {
-  font-size: 1.1rem;
-  margin-bottom: 15px;
-  line-height: 1.6;
-  color: #ccc;
-}
-
-.founders-section {
-  padding: 60px 0;
-  background-color: #2c2c2c;
-}
-
-.founders-section h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  color: hsl(86, 45%, 54%);
-  margin-bottom: 40px;
-}
-
-.founder-cards {
-  display: flex;
-  justify-content: space-around;
-  gap: 40px;
-}
-
-.founder-card {
-  background-color: #333;
-  padding: 30px;
-  border-radius: 15px;
-  width: 250px;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.founder-card:hover {
-  transform: scale(1.05);
-}
-
-.founder-card img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-.founder-card h3 {
-  font-size: 1.5rem;
-  color: hsl(86, 45%, 54%);
-  margin-top: 15px;
-}
-
-.founder-card p {
-  color: #ccc;
-  margin-top: 10px;
-}
-
-.achievements-section {
-  padding: 60px 0;
-  background-color: #1b1b1b;
-}
-
-.achievements-grid {
-  display: flex;
-  justify-content: space-around;
-}
-
-.achievement h3 {
-  font-size: 2rem;
-  color: hsl(86, 45%, 54%);
-  margin-bottom: 10px;
-}
-
-.achievement p {
-  font-size: 1.2rem;
-  color: #ccc;
-}
-
-.cta-section {
-  background-color: #2c2c2c;
+.about-section {
   padding: 60px 20px;
+  background-color: #1b1b1b;
+}
+
+/* Header Section */
+.header-section {
   text-align: center;
-}
-
-.cta-section h2 {
-  font-size: 2.5rem;
-  color: hsl(86, 45%, 54%);
-  margin-bottom: 20px;
-}
-
-.cta-section p {
-  font-size: 1.2rem;
-  color: #ccc;
   margin-bottom: 40px;
 }
 
-.cta-button {
-  background-color: hsl(86, 45%, 54%);
-  color: #1b1b1b;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.header-section h1 {
+  color: hsl(86, 45%, 54%);
+  font-size: 36px;
 }
 
-.cta-button:hover {
-  background-color: hsl(86, 55%, 64%);
+.header-section p {
+  color: #333;
+  font-size: 18px;
 }
 
-/* Responsive Design */
+/* Slider Section */
+.slider-section {
+  margin-top: 60px;
+  position: relative;
+}
+
+.slider-section img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slider-section .caption {
+  color: hsl(86, 45%, 54%);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Mission Section */
+.mission-section {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 20px;
+}
+
+.mission-section h2 {
+  color: hsl(86, 45%, 54%);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.mission-section p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* Members Section */
+.members-section {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 20px;
+}
+
+.members-section h2 {
+  color: hsl(86, 45%, 54%);
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.members-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px;
+  width: 250px;
+}
+
+.member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.member-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.member-card h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.member-card p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Member Card Icons */
+.member-icon {
+  font-size: 50px;
+  color: hsl(86, 45%, 54%);
+  margin-bottom: 10px; 
+}
+
+
+/* Testimonials Section */
+.testimonials-section {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 20px;
+}
+
+.testimonials-section h2 {
+  color: hsl(86, 45%, 54%);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.testimonials-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  margin-top: 10px;
+  color: hsl(86, 45%, 54%);
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
-  .founder-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .achievements-grid {
-    flex-direction: column;
-    gap: 30px;
+  .slider-section img {
+    height: 300px;
   }
 }

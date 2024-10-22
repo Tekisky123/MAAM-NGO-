@@ -8,6 +8,7 @@ import IMG3 from "../assets/images/IMG-20241013-WA0035.jpg";
 import IMG4 from "../assets/images/IMG-20241013-WA0041.jpg";
 import subtitle from "../assets/images/subtitle-img-green.png";
 import { useTranslation } from "react-i18next"; // Import the translation hook
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   const { t } = useTranslation(); // Call the useTranslation hook
@@ -138,11 +139,12 @@ const AboutSection = () => {
 
           <div className="tab-content">{renderTabContent()}</div>
 
-          <button className="btn btn-secondary">
-            <span>{t("about.learnMore")}</span>{" "}
-            {/* Use translation for learn more text */}
-            <IonIcon icon={heartOutline} aria-hidden="true" />
-          </button>
+          <Link to="/about">
+            <button className="btn btn-secondary">
+              <span>{t("about.learnMore")}</span>{" "}
+              <IonIcon icon={heartOutline} aria-hidden="true" />
+            </button>
+          </Link>
         </div>
       </div>
     </section>

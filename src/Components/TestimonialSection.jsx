@@ -1,6 +1,6 @@
 import subtitleImg from "../assets/images/subtitle-img-green.png";
-import testiAvatar from "../assets/images/testi-avatar.png";
-import testiBanner from "../assets/images/IMG-20241013-WA0039.jpg";
+import newspapericon from "../assets/images/newspaper.png"; // Consider replacing this with the newspaper logo if needed
+import testiBanner from "../assets/images/IMG-20241013-WA0039.jpg"; // Ensure this image reflects the newspaper cutting or replace it accordingly
 import { useTranslation } from 'react-i18next';
 
 const TestimonialSection = () => {
@@ -26,7 +26,7 @@ const TestimonialSection = () => {
         <div className="testi-card">
           <figure className="card-avatar">
             <img
-              src={testiAvatar}
+              src={newspapericon} 
               width="60"
               height="60"
               loading="lazy"
@@ -47,7 +47,7 @@ const TestimonialSection = () => {
 
       <figure className="testi-banner">
         <img
-          src={testiBanner}
+          src={testiBanner} // Ensure this image reflects the newspaper cutting
           loading="lazy"
           alt={t('testimonials.bannerAlt')}
           className="img-cover"

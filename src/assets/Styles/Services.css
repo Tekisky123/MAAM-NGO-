@@ -1,0 +1,125 @@
+/* Services.css */
+
+.services-page {
+    padding: 60px 20px;
+    text-align: center;
+    background-color:#1b1b1b;
+}
+.services-page h2 {
+    color: hsl(86, 45%, 54%);
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Increased gap between cards */
+    margin-top: 50px;
+
+}
+
+/* Adjusting card size and style */
+.service-page-card {
+    background-color: white;
+    border-radius: 12px; /* Slightly larger border radius */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 300px; /* Increased card width */
+    height: 350px; /* Fixed height for uniformity */
+    text-align: center;
+    overflow: hidden;
+    padding: 20px; /* Added padding for content */
+}
+
+.service-page-card:hover {
+    transform: translateY(-8px); /* Subtle hover effect */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); /* Darker shadow on hover */
+}
+
+.service-page-card img {
+    width: 100%;
+    height: 250px; /* Adjusted image height for better proportion */
+    object-fit: cover;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Slightly darker overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.popup-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+    width: 90%;
+    max-width: 500px;
+    animation: slideIn 0.5s ease;
+}
+
+.popup-content h3 {
+    color: hsl(86, 45%, 54%);
+    margin-bottom: 20px;
+}
+
+.popup-content p {
+    color: #333;
+    line-height: 1.6;
+    text-align: justify; /* Justify text for better readability */
+}
+
+.close-btn {
+    background-color: hsl(86, 45%, 54%);
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Increased padding for buttons */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: hsl(86, 45%, 40%);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .services-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}

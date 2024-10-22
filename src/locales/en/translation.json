@@ -48,107 +48,158 @@
     "learnMore": "Learn More About Us"
   },
   "cta_section": {
-      "title": "324+ Trusted Global Partners",
-      "button_text": "Become a Partner",
-      "image_alt": "Fox"
-    },
-    "service_section": {
-      "subtitle": "What We Do",
-      "title": "We Work Differently to keep The World Safe",
-      "services": [
-        {
-          "title": "Save",
-          "description": "Tempor incididunt ut labores dolore magna suspene",
-          "read_more": "Read More"
-        },
-        {
-          "title": "Save Ecology",
-          "description": "Tempor incididunt ut labores dolore magna suspene",
-          "read_more": "Read More"
-        },
-        {
-          "title": "Tree Plantation",
-          "description": "Tempor incididunt ut labores dolore magna suspene",
-          "read_more": "Read More"
-        },
-        {
-          "title": "Clear Ocean",
-          "description": "Tempor incididunt ut labores dolore magna suspene",
-          "read_more": "Read More"
-        }
-      ]
-    },
-    "service": {
-    "whatWeDo": "What We Do",
-    "title": "We Work Differently to keep The World Safe",
-    "cards": [
+    "title": "324+ Trusted Global Partners",
+    "button_text": "Become a Partner",
+    "image_alt": "Fox"
+  },
+  "service_section": {
+    "subtitle": "What We Do",
+    "title": "We Work Together to Empower Communities and Create Lasting Change",
+    "services": [
       {
-        "title": "Save......",
-        "text": "Tempor incididunt ut labores dolore magna suspene"
+        "title": "Health & Wellness",
+        "description": "Providing healthcare services and support to underserved communities.",
+        "read_more": "Read More"
       },
       {
-        "title": "Save Ecology",
-        "text": "Tempor incididunt ut labores dolore magna suspene"
+        "title": "Education & Literacy",
+        "description": "Empowering individuals through education and skill development programs.",
+        "read_more": "Read More"
       },
       {
-        "title": "Tree Plantation",
-        "text": "Tempor incididunt ut labores dolore magna suspene"
+        "title": "Women Empowerment",
+        "description": "Supporting women through training, resources, and advocacy.",
+        "read_more": "Read More"
       },
       {
-        "title": "Clear Ocean",
-        "text": "Tempor incididunt ut labores dolore magna suspene"
+        "title": "Environmental Conservation",
+        "description": "Promoting sustainable practices to protect our planet.",
+        "read_more": "Read More"
       }
     ]
   },
-  "donate": {
-    "sectionTitle": "Raise Hand To Save ........",
+  "service": {
+    "whatWeDo": "Our Mission",
+    "title": "Empowering Lives and Building Resilient Communities",
+    "cards": [
+      {
+        "title": "Health & Wellness",
+        "text": "We provide essential health services to improve community health."
+      },
+      {
+        "title": "Education & Literacy",
+        "text": "We offer educational programs to enhance literacy and skills."
+      },
+      {
+        "title": "Women Empowerment",
+        "text": "We empower women through various training and support initiatives."
+      },
+      {
+        "title": "Environmental Conservation",
+        "text": "We engage in activities that promote environmental sustainability."
+      }
+    ]
+  },
+ "donate": {
+    "sectionTitle": "Raise Hand To Save",
     "raised": "Raised",
     "goal": "Goal",
     "raise": "Raise",
     "toGo": "To Go",
-    "donation": "Donation"
-  },
-  "testimonials": {
-    "title": "Our Testimonials",
-    "subtitle": "What People Say About Our Organization",
-    "avatarAlt": "David S. Neuman",
-    "quote": "Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaquesa quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo enimpsam voluptatem",
-    "name": "Suleman Khan",
-    "titleName": "Business Manager",
-    "bannerAlt": "Rhinoceros"
-  },
-  "events": {
-    "title": "Our Most Popular Causes For Building Fund",
-    "subtitle": "Event & Program",
-    "eventList": [
+    "donation": "Donation",
+    "cards": [
       {
         "id": 1,
-        "date": "01-05",
-        "month": "Jan",
-        "subtitle": "Ocean Water",
-        "title": "Far from the countries Vokalia and Consonantia 2022",
-        "text": "Sit amet consectetur adipiscing elit sed do eiusmod tempor"
+        "raised": 256,
+        "goal": 1000,
+        "raise": 744,
+        "toGo": 744,
+        "title": "Giving Sewing Machines to Women"
       },
       {
         "id": 2,
-        "date": "02-23",
-        "month": "Feb",
-        "subtitle": "Ocean Water",
-        "title": "Far from the countries Vokalia and Consonantia 2022",
-        "text": "Sit amet consectetur adipiscing elit sed do eiusmod tempor"
+        "raised": 512,
+        "goal": 2000,
+        "raise": 1488,
+        "toGo": 1488,
+        "title": "Empowering Women through Skills"
       },
       {
         "id": 3,
-        "date": "03-27",
-        "month": "Mar",
-        "subtitle": "Ocean Water",
-        "title": "Far from the countries Vokalia and Consonantia 2022",
-        "text": "Sit amet consectetur adipiscing elit sed do eiusmod tempor"
+        "raised": 768,
+        "goal": 3000,
+        "raise": 2232,
+        "toGo": 2232,
+        "title": "Support Women Entrepreneurs"
+      },
+      {
+        "id": 4,
+        "raised": 1024,
+        "goal": 4000,
+        "raise": 2976,
+        "toGo": 2976,
+        "title": "Youth Helping the Community"
       }
-    ],
-    "learnMore": "Learn More Us",
-    "viewEvents": "View Events"
+    ]
   },
+ "testimonials": {
+    "title": "Our Work in the News",
+    "subtitle": "Nanded Choufer Highlights Our Initiatives",
+    "avatarAlt": "Nanded Choufer",
+    "quote": "On the 12th of this month, the Maulana Azad Minority Mission organized a significant event in Arahurwan aimed at raising awareness about road safety. The event featured the inauguration of the Nanded Choufer Office and Dosti Transport Company, conducted by Assistant Regional Transport Officer Sandeep Nimas, along with Highway Police Sub-Inspector Lyakule and Assistant Police Inspector Agalave from the Arahur Police Station. This event underscores the importance of road safety and adherence to traffic rules, ensuring that the community is well-informed about the significance of safety measures.",
+    "name": "Nanded Choufer",
+    "titleName": "Local Newspaper",
+    "bannerAlt": "Nanded Choufer Newspaper Cutting"
+  },
+ "events": {
+  "title": "Our Most Popular Causes For Building Fund",
+  "subtitle": "Event & Program",
+  "eventList": [
+    {
+      "id": 1,
+      "date": "01-05",
+      "month": "Jan",
+      "subtitle": "Road Safety Awareness",
+      "title": "Community Road Safety Workshop 2024",
+      "text": "Join us for a workshop aimed at educating the community about road safety rules and practices."
+    },
+    {
+      "id": 2,
+      "date": "02-15",
+      "month": "Feb",
+      "subtitle": "Water Distribution",
+      "title": "Clean Water Distribution Drive",
+      "text": "We are organizing a clean water distribution drive to provide access to safe drinking water for underserved communities."
+    },
+    {
+      "id": 3,
+      "date": "03-27",
+      "month": "Mar",
+      "subtitle": "Clothing Distribution",
+      "title": "Winter Clothing Drive",
+      "text": "Help us collect and distribute winter clothing to those in need in our community."
+    },
+    {
+      "id": 4,
+      "date": "04-10",
+      "month": "Apr",
+      "subtitle": "Food Distribution",
+      "title": "Monthly Food Distribution",
+      "text": "Join us as we distribute food packages to families in need every month."
+    },
+    {
+      "id": 5,
+      "date": "05-22",
+      "month": "May",
+      "subtitle": "Health Awareness",
+      "title": "Health and Wellness Fair",
+      "text": "Participate in our health fair featuring free health check-ups, awareness sessions, and wellness activities."
+    }
+  ],
+  "learnMore": "Learn More About Our Causes",
+  "viewEvents": "View Event Details"
+}
+,
   "donation": {
     "heading": "Donate & Make a Difference",
     "payViaQR": "Pay via QR",
@@ -163,5 +214,200 @@
       "message": "Any Message",
       "submit": "Submit & Open WhatsApp"
     }
+  },
+  "about1": {
+    "title":"About",
+    "slider": {
+      "slide1": "Dedicated to helping communities",
+      "slide2": "Building a brighter future for everyone",
+      "slide3": "Together we can achieve more",
+      "slide4": "Compassion in action"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At MAAM, we strive to create a world where every individual has access to the care and resources they need to lead a fulfilling life. Our mission is driven by compassion, and we work tirelessly to empower underprivileged communities."
+    },
+    "members": {
+      "title": "Meet Our Members",
+      "secretary": {
+        "title": "Secretary",
+        "name":"Mohammed Aref Khan pathan"
+      },
+      "president": {
+        "title":"President",
+        "name":"Surayya Tanveer Mohammed Aref Khan"
+      },
+      "treasurer": {
+        "title": "Treasurer",
+        "name":"Mohammad Feroz Khan"
+      }
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "test1": "\"The team at MAAM is incredibly dedicated. Their support has made a significant impact on my family's life. I am forever grateful!\"",
+      "author1": "- Amina Khatoon",
+      "test2": "\"Working with MAAM has been a life-changing experience. Their commitment to uplifting the community is truly inspiring!\"",
+      "author2": "- Faisal Ahmed",
+      "test3": "\"I was overwhelmed by the kindness and support from MAAM. They are making a real difference in people's lives.\"",
+      "author3": "- Lina Maria",
+      "test4": "\"MAAM's initiatives have opened doors for many. Their work is a shining example of compassion and dedication.\"",
+      "author4": "- Rajesh Kumar"
+    }
+  },
+ "services": {
+    "title": "Our Services",
+    "popup": {
+      "close": "Close"
+    },
+    "servicesList": [
+      {
+        "id": 1,
+        "title": "Animal Husbandry",
+        "details": "Details about Animal Husbandry."
+      },
+      {
+        "id": 2,
+        "title": "Dairying & Fisheries",
+        "details": "Details about Dairying & Fisheries."
+      },
+      {
+        "id": 3,
+        "title": "Drinking Water",
+        "details": "Details about Drinking Water."
+      },
+      {
+        "id": 4,
+        "title": "Education & Literacy",
+        "details": "Details about Education & Literacy."
+      },
+      {
+        "id": 5,
+        "title": "Health & Family Welfare",
+        "details": "Details about Health & Family Welfare."
+      },
+      {
+        "id": 6,
+        "title": "Labour & Employment",
+        "details": "Details about Labour & Employment."
+      },
+      {
+        "id": 7,
+        "title": "Minority Issues",
+        "details": "Details about Minority Issues."
+      },
+      {
+        "id": 8,
+        "title": "Sports",
+        "details": "Details about Sports."
+      },
+      {
+        "id": 9,
+        "title": "Women's Development & Empowerment",
+        "details": "Details about Women's Development & Empowerment."
+      },
+      {
+        "id": 10,
+        "title": "Any Other",
+        "details": "Details about Any Other."
+      },
+      {
+        "id": 11,
+        "title": "Skill Development",
+        "details": "Details about Skill Development."
+      },
+      {
+        "id": 12,
+        "title": "Animal Welfare",
+        "details": "Details about Animal Welfare."
+      }
+    ]
+  },
+  "events1": {
+    "title": "Our Events",
+    "eventsList": [
+      {
+        "id": 1,
+        "date": "2024-10-01",
+        "place": "Animal Husbandry Center, New York",
+        "description": "Animal Husbandry Initiatives"
+      },
+      {
+        "id": 2,
+        "date": "2024-10-15",
+        "place": "Community Hall, Los Angeles",
+        "description": "Health & Family Welfare Program"
+      },
+      {
+        "id": 3,
+        "date": "2024-11-01",
+        "place": "Educational Institute, San Francisco",
+        "description": "Education & Literacy Workshop"
+      },
+      {
+        "id": 4,
+        "date": "2024-11-20",
+        "place": "Skill Development Center, Chicago",
+        "description": "Skill Development Training"
+      },
+      {
+        "id": 5,
+        "date": "2024-12-05",
+        "place": "Sports Arena, Miami",
+        "description": "Sports Development Event"
+      },
+      {
+        "id": 6,
+        "date": "2024-12-15",
+        "place": "Women Empowerment Center, Houston",
+        "description": "Women's Development & Empowerment Seminar"
+      },
+      {
+        "id": 7,
+        "date": "2025-01-10",
+        "place": "Labour Office, Philadelphia",
+        "description": "Labour & Employment Fair"
+      },
+      {
+        "id": 8,
+        "date": "2025-01-25",
+        "place": "Water Supply Office, Seattle",
+        "description": "Drinking Water Awareness Campaign"
+      },
+      {
+        "id": 9,
+        "date": "2025-02-05",
+        "place": "Minority Issues Forum, Atlanta",
+        "description": "Minority Issues Discussion Panel"
+      },
+      {
+        "id": 10,
+        "date": "2025-02-20",
+        "place": "Animal Welfare Center, Boston",
+        "description": "Animal Welfare Awareness Day"
+      }
+    ]
+  },
+  "footer": {
+    "terms": "Terms of use",
+    "privacy": "Privacy & Policy",
+    "copyright": "Copyright 2022 MAULANA AZAD ALPSANKHYAK MISSION NANDED",
+    "allRightsReserved": "All Rights Reserved.",
+    "developedBy": "Developed by"
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "formTitle": "Get in Touch",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Your Message",
+    "submit": "Submit",
+    "addressTitle": "Our Address",
+    "addressLine1": "Flat/Door/Building Shop No. 4, Near SBI ATM, Chawalwala Complex",
+    "addressLine2": "Degloor Naka Itwara Nanded S.O Nanded",
+    "city": "Nanded",
+    "state": "Maharashtra",
+    "country": "India",
+    "zipCode": "431604"
   }
 }

@@ -1,7 +1,8 @@
-import { IonIcon } from '@ionic/react';
-import { heartOutline } from 'ionicons/icons';
-import { useTranslation } from 'react-i18next';
+import { IonIcon } from "@ionic/react";
+import { heartOutline } from "ionicons/icons";
+import { useTranslation } from "react-i18next";
 import IMG from "../assets/images/IMG-20241013-WA0043.jpg";
+import { Link } from "react-router-dom";
 
 const CTASection = () => {
   const { t } = useTranslation(); // Hook to handle translations
@@ -10,12 +11,14 @@ const CTASection = () => {
     <section className="section cta">
       <div className="container">
         <div className="cta-content">
-          <h2 className="h2 section-title">{t('cta_section.title')}</h2>
+          <h2 className="h2 section-title">{t("cta_section.title")}</h2>
 
-          <button className="btn btn-outline">
-            <span>{t('cta_section.button_text')}</span>
-            <IonIcon icon={heartOutline} aria-hidden="true" />
-          </button>
+          <Link to="/contact">
+            <button className="btn btn-outline">
+              <span>{t("cta_section.button_text")}</span>
+              <IonIcon icon={heartOutline} aria-hidden="true" />
+            </button>
+          </Link>
         </div>
 
         <figure className="cta-banner">
@@ -24,7 +27,7 @@ const CTASection = () => {
             width="520"
             height="228"
             loading="lazy"
-            alt={t('cta_section.image_alt')}
+            alt={t("cta_section.image_alt")}
             className="img-cover"
           />
         </figure>

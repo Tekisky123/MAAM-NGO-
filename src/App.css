@@ -331,10 +331,13 @@ body {
 }
 
 .logo {
-  color: var(--white);
-  font-family: var(--ff-oswald);
-  font-size: 3.2rem;
-  text-transform: uppercase;
+width: 100px;
+height: 80px;
+
+}
+.logo img{
+  height: 100%;
+  width: 100%;
 }
 
 .nav-open-btn {
@@ -417,6 +420,7 @@ body {
 .navbar-link:is(:hover, :focus) {
   background-color: var(--pistachio);
 }
+
 
 /*-----------------------------------*\
   #HERO
@@ -639,6 +643,7 @@ body {
   text-align: center;
   padding: 45px 40px;
   border-radius: 2px;
+  height: 95%;
   outline: 3px solid transparent;
   box-shadow: var(--card-shadow);
   transition: var(--transition-2);
@@ -692,12 +697,14 @@ body {
   gap: 60px;
 }
 
+
 .donate-card {
   box-shadow: var(--card-shadow);
 }
 
 .donate-card .card-banner {
   background-color: var(--light-gray);
+  height: 400px;
 }
 
 .donate-card .card-content {
@@ -993,6 +1000,12 @@ body {
   background-color: var(--eerie-black-3);
   padding: 20px;
 }
+.footer-content{
+  width: 100%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
 
 .footer-list,
 .copyright {
@@ -1029,6 +1042,9 @@ body {
 .copyright-link {
   display: inline-block;
 }
+.footerlogo{
+  width: 200px;
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
@@ -1041,6 +1057,15 @@ body {
   .donation-btn {
     display: none;
   }
+  .footer-content{
+    width: 100%;
+   display: block;
+  }
+  .footerlogo{
+    margin: auto;
+
+  }
+  
 }
 
 @media (min-width: 450px) {
@@ -1198,7 +1223,7 @@ body {
   .footer .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     padding-inline: 40px;
   }
@@ -1690,7 +1715,6 @@ textarea.input-field {
 
 .btn-submit:hover {
   background-color: hsl(86, 55%, 64%);
-  transform: scale(1.05);
 }
 
 .payment-options {

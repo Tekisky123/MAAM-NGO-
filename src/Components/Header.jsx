@@ -9,6 +9,7 @@ import {
 } from "ionicons/icons";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next"; // Import useTranslation
+import logo from "../assets/images/logo-removebg-preview.png"
 
 const Header = () => {
   const { t, i18n } = useTranslation(); // Use translation hook
@@ -66,7 +67,7 @@ const Header = () => {
       <div className="container">
         <h1>
           <Link to="/" className="logo">
-            MAAM
+            <img src={logo} alt="" />
           </Link>
         </h1>
 
@@ -111,7 +112,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="#" className="navbar-link" data-nav-link>
+              <Link to="/contact" className="navbar-link" data-nav-link>
                 <span>{t("Contact")}</span>
                 <IonIcon icon={chevronForwardOutline} aria-hidden="true" />
               </Link>

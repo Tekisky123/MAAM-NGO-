@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IonIcon } from "@ionic/react";
 import { qrCodeOutline, cardOutline } from "ionicons/icons";
 import { useTranslation } from "react-i18next";
 
 const DonationPage = () => {
+  
   const { t } = useTranslation(); // Use translation hook
+  useEffect(() => {
+    document.title = `${t("Donation")} | MAAM NGO`;
+  }, [t]);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
