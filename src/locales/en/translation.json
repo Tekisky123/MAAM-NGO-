@@ -100,7 +100,7 @@
       }
     ]
   },
- "donate": {
+  "donate": {
     "sectionTitle": "Raise Hand To Save",
     "raised": "Raised",
     "goal": "Goal",
@@ -142,7 +142,7 @@
       }
     ]
   },
- "testimonials": {
+  "testimonials": {
     "title": "Our Work in the News",
     "subtitle": "Nanded Choufer Highlights Our Initiatives",
     "avatarAlt": "Nanded Choufer",
@@ -151,55 +151,54 @@
     "titleName": "Local Newspaper",
     "bannerAlt": "Nanded Choufer Newspaper Cutting"
   },
- "events": {
-  "title": "Our Most Popular Causes For Building Fund",
-  "subtitle": "Event & Program",
-  "eventList": [
-    {
-      "id": 1,
-      "date": "01-05",
-      "month": "Jan",
-      "subtitle": "Road Safety Awareness",
-      "title": "Community Road Safety Workshop 2024",
-      "text": "Join us for a workshop aimed at educating the community about road safety rules and practices."
-    },
-    {
-      "id": 2,
-      "date": "02-15",
-      "month": "Feb",
-      "subtitle": "Water Distribution",
-      "title": "Clean Water Distribution Drive",
-      "text": "We are organizing a clean water distribution drive to provide access to safe drinking water for underserved communities."
-    },
-    {
-      "id": 3,
-      "date": "03-27",
-      "month": "Mar",
-      "subtitle": "Clothing Distribution",
-      "title": "Winter Clothing Drive",
-      "text": "Help us collect and distribute winter clothing to those in need in our community."
-    },
-    {
-      "id": 4,
-      "date": "04-10",
-      "month": "Apr",
-      "subtitle": "Food Distribution",
-      "title": "Monthly Food Distribution",
-      "text": "Join us as we distribute food packages to families in need every month."
-    },
-    {
-      "id": 5,
-      "date": "05-22",
-      "month": "May",
-      "subtitle": "Health Awareness",
-      "title": "Health and Wellness Fair",
-      "text": "Participate in our health fair featuring free health check-ups, awareness sessions, and wellness activities."
-    }
-  ],
-  "learnMore": "Learn More About Our Causes",
-  "viewEvents": "View Event Details"
-}
-,
+  "events": {
+    "title": "Our Most Popular Causes For Building Fund",
+    "subtitle": "Event & Program",
+    "eventList": [
+      {
+        "id": 1,
+        "date": "01-05",
+        "month": "Jan",
+        "subtitle": "Road Safety Awareness",
+        "title": "Community Road Safety Workshop 2024",
+        "text": "Join us for a workshop aimed at educating the community about road safety rules and practices."
+      },
+      {
+        "id": 2,
+        "date": "02-15",
+        "month": "Feb",
+        "subtitle": "Water Distribution",
+        "title": "Clean Water Distribution Drive",
+        "text": "We are organizing a clean water distribution drive to provide access to safe drinking water for underserved communities."
+      },
+      {
+        "id": 3,
+        "date": "03-27",
+        "month": "Mar",
+        "subtitle": "Clothing Distribution",
+        "title": "Winter Clothing Drive",
+        "text": "Help us collect and distribute winter clothing to those in need in our community."
+      },
+      {
+        "id": 4,
+        "date": "04-10",
+        "month": "Apr",
+        "subtitle": "Food Distribution",
+        "title": "Monthly Food Distribution",
+        "text": "Join us as we distribute food packages to families in need every month."
+      },
+      {
+        "id": 5,
+        "date": "05-22",
+        "month": "May",
+        "subtitle": "Health Awareness",
+        "title": "Health and Wellness Fair",
+        "text": "Participate in our health fair featuring free health check-ups, awareness sessions, and wellness activities."
+      }
+    ],
+    "learnMore": "Learn More About Our Causes",
+    "viewEvents": "View Event Details"
+  },
   "donation": {
     "heading": "Donate & Make a Difference",
     "payViaQR": "Pay via QR",
@@ -216,7 +215,7 @@
     }
   },
   "about1": {
-    "title":"About",
+    "title": "About",
     "slider": {
       "slide1": "Dedicated to helping communities",
       "slide2": "Building a brighter future for everyone",
@@ -231,15 +230,15 @@
       "title": "Meet Our Members",
       "secretary": {
         "title": "Secretary",
-        "name":"Mohammed Aref Khan pathan"
+        "name": "Mohammed Aref Khan pathan"
       },
       "president": {
-        "title":"President",
-        "name":"Surayya Tanveer Mohammed Aref Khan"
+        "title": "President",
+        "name": "Surayya Tanveer"
       },
       "treasurer": {
         "title": "Treasurer",
-        "name":"Mohammad Feroz Khan"
+        "name": "Mohammad Feroz Khan"
       }
     },
     "testimonials": {
@@ -254,7 +253,7 @@
       "author4": "- Rajesh Kumar"
     }
   },
- "services": {
+  "services": {
     "title": "Our Services",
     "popup": {
       "close": "Close"
@@ -403,7 +402,9 @@
     "messagePlaceholder": "Your Message",
     "submit": "Submit",
     "addressTitle": "Our Address",
-    "addressLine1": "Flat/Door/Building Shop No. 4, Near SBI ATM, Chawalwala Complex",
+    "mobileNo": "Mobile Number",
+    "email": "Email ID",
+    "addressLine1": "Flat/Door/Building Shop No. 4, Near SBI BANK, Chawalwala Complex",
     "addressLine2": "Degloor Naka Itwara Nanded S.O Nanded",
     "city": "Nanded",
     "state": "Maharashtra",

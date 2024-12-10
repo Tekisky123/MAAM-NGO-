@@ -27,7 +27,7 @@
   --pistachio_50: hsla(86, 45%, 54%, 0.5);
   --baby-powder: hsl(86, 41%, 97%);
   --light-gray: hsl(0, 0%, 80%);
-  --pistachio: hsl(86, 45%, 54%);
+  --pistachio: #00bcd4;
   --platinum: hsl(0, 0%, 91%);
   --cultured: hsl(0, 0%, 94%);
   --white-60: hsla(0, 0%, 100%, 0.6);
@@ -297,7 +297,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent;
+  background-color:#00bcd4;
   padding-block: 18px;
   z-index: 4;
   backdrop-filter: blur(20px);
@@ -311,11 +311,11 @@ body {
   transform: translateX(-50%);
   width: calc(100% - 140px);
   height: 1px;
-  background-color: var(--white_10);
+  background-color:#00bcd4;
 }
 
 .header.active {
-  background-color: var(--eerie-black-1);
+  background-color:#00bcd4;
   box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.8);
 }
 
@@ -338,6 +338,8 @@ height: 80px;
 .logo img{
   height: 100%;
   width: 100%;
+  border-radius: 50%;
+
 }
 
 .nav-open-btn {
@@ -1283,8 +1285,9 @@ height: 80px;
    */
 
   .hero {
-    position: relative;
+    z-index: 1;
     background-image: url("./assets/images/IMG-20241013-WA0038.jpg");
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -1595,7 +1598,7 @@ height: 80px;
   text-align: center;
   margin-top: 60px;
   font-size: 3rem;
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   font-weight: 700;
   margin-bottom: 50px;
   letter-spacing: 1px;
@@ -1610,7 +1613,7 @@ height: 80px;
 }
 
 .option-card {
-  background-color: #2c2c2c;
+  background-color: azure;
   padding: 30px;
   border-radius: 15px;
   width: 200px;
@@ -1627,11 +1630,13 @@ height: 80px;
 .option-card h3 {
   margin-top: 15px;
   font-size: 1.2rem;
-  color: #fff;
+  color: black;
+
 }
 
 .icon {
-  color: hsl(86, 45%, 54%);
+  color: black;
+
   font-size: 40px;
 }
 
@@ -1649,7 +1654,7 @@ height: 80px;
 }
 
 .qr-message {
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   font-size: 1.2rem;
   margin-top: 10px;
   text-align: center;
@@ -1668,7 +1673,7 @@ height: 80px;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 30px;
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
 }
 
 .form-grid {
@@ -1689,7 +1694,7 @@ height: 80px;
 }
 
 .input-field:focus {
-  border-color: hsl(86, 45%, 54%);
+  border-color: #00bcd4;
   box-shadow: 0px 5px 10px rgba(141, 182, 0, 0.5);
   outline: none;
 }
@@ -1701,7 +1706,7 @@ textarea.input-field {
 }
 
 .btn-submit {
-  background-color: hsl(86, 45%, 54%);
+  background-color: #00bcd4;
   color: #1b1b1b;
   padding: 15px 30px;
   border: none;
@@ -1713,9 +1718,7 @@ textarea.input-field {
   width: 100%;
 }
 
-.btn-submit:hover {
-  background-color: hsl(86, 55%, 64%);
-}
+
 
 .payment-options {
   display: flex;
@@ -1731,7 +1734,7 @@ textarea.input-field {
 }
 
 .option-card.active {
-  border: 2px solid hsl(86, 45%, 54%);
+  border: 2px solid #00bcd4;
   border-radius: 8px;
 }
 

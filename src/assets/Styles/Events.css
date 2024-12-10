@@ -1,5 +1,5 @@
 .events {
-    background-color: #1b1b1b;
+    /* background-color: #1b1b1b; */
   }
   
   .events-container {
@@ -9,7 +9,7 @@
   }
   
   .events-title {
-    color: hsl(86, 45%, 54%);
+    color: #00bcd4;
     font-size: 36px;
     text-align: center;
     margin-bottom: 2rem;
@@ -80,7 +80,7 @@
     left: 50%;
     top: 0;
     width: 4px;
-    background: #4caf50;
+    background:#00bcd4;
     height: 100%;
     z-index: -1;
     transform: translateX(-50%);

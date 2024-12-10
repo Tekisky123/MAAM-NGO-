@@ -3,10 +3,9 @@ import { useTranslation } from "react-i18next";
 import "../assets/Styles/Contact.css";
 
 const Contact = () => {
-  
   const { t } = useTranslation();
   useEffect(() => {
-    document.title = `${t("contact.heading")} | MAAM NGO`;
+    document.title = ` ${t("contact.heading")} | MAAM NGO`;
   }, [t]);
 
   return (
@@ -51,17 +50,19 @@ const Contact = () => {
           </div>
 
           <div className="address-section">
-          <h2 className="form-heading">{t("contact.addressTitle")}</h2>
-          <p className="address-details">
-            {t("contact.addressLine1")}
-            <br />
-            {t("contact.addressLine2")}
-            <br />
-            {t("contact.city")}, {t("contact.state")}
-            <br />
-            {t("contact.country")} - {t("contact.zipCode")}
-          </p>
-        </div>
+            <h2 className="form-heading">{t("contact.addressTitle")}</h2>
+            <p className="address-details">
+              {t("contact.addressLine1")}
+              {t("contact.addressLine2")}
+              {t("contact.city")}, {t("contact.state")}
+              <br />
+              {t("contact.country")} - {t("contact.zipCode")}
+            </p>
+            <h2 className="form-heading">{t("contact.mobileNo")}</h2>
+            <p className="contact-detail">+91 8806837999</p>
+            <h2 className="form-heading">{t("contact.email")}</h2>
+            <p className="contact-detail">maam.ned@gmail.com</p>
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { IonIcon } from "@ionic/react";
 import { qrCodeOutline, cardOutline } from "ionicons/icons";
 import { useTranslation } from "react-i18next";
+import qr from "../assets/images/QRCode.png"
 
 const DonationPage = () => {
   
@@ -44,7 +45,7 @@ const DonationPage = () => {
       Thank you for your generosity! Your contribution will make a difference.
     `;
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    window.open(`https://wa.me/919373960682?text=${encodedMessage}`, "_blank");
+    window.open(`https://wa.me/918806837999?text=${encodedMessage}`, "_blank");
   };
 
   const handleQRCodeClick = () => {
@@ -86,7 +87,7 @@ const DonationPage = () => {
             <div className="form-card ">
               <div className="qr-code-section">
                 <img
-                  src="https://img.freepik.com/free-vector/scan-me-qr-code_78370-2915.jpg"
+                  src={qr}
                   alt="Dummy QR Code"
                   className="qr-code"
                 />

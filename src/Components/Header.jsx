@@ -5,11 +5,11 @@ import {
   menuOutline,
   closeOutline,
   chevronForwardOutline,
-  heartOutline,
+
 } from "ionicons/icons";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next"; // Import useTranslation
-import logo from "../assets/images/logo-removebg-preview.png"
+import logo from "../assets/images/finallogo.jpg";
 
 const Header = () => {
   const { t, i18n } = useTranslation(); // Use translation hook
@@ -125,21 +125,21 @@ const Header = () => {
               name="language"
               className="lang-switch"
               onChange={handleLanguageChange}
-              value={i18n.language} // Set the selected value based on the current language
+              value={i18n.language} 
             >
               <option value="en">English</option>
-              <option value="ur">Urdu</option>
               <option value="mr">Marathi</option>
               <option value="hi">Hindi</option>
+              <option value="ur">Urdu</option>
             </select>
           </div>
 
-          <Link to="/donation">
+          {/* <Link to="/donation">
             <button className="btn btn-primary donation-btn">
               <span>{t("Donation")}</span>
               <IonIcon icon={heartOutline} aria-hidden="true" />
             </button>
-          </Link>
+          </Link> */}
         </div>
         <button
           className="nav-open-btn"

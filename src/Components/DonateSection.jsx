@@ -36,50 +36,11 @@ const DonateSection = () => {
                 </figure>
 
                 <div className="card-content">
-                  <div className="progress-wrapper">
-                    <p className="progress-text">
-                      <span>{t("donate.raised")}</span>
-                      <data value={item.raised}>${item.raised}</data>
-                    </p>
-                    <data
-                      className="progress-value"
-                      value={((item.raised / item.goal) * 100).toFixed(0)}
-                    >
-                      {((item.raised / item.goal) * 100).toFixed(0)}%
-                    </data>
-                  </div>
-
-                  <div className="progress-box">
-                    <div
-                      className="progress"
-                      style={{ width: `${(item.raised / item.goal) * 100}%` }}
-                    ></div>
-                  </div>
+                  
 
                   <h3 className="h3 card-title">{t(item.title)}</h3>
 
-                  <div className="card-wrapper">
-                    <p className="card-wrapper-text">
-                      <span>{t("donate.goal")}</span>
-                      <data className="green" value={item.goal}>
-                        ${item.goal}
-                      </data>
-                    </p>
-
-                    <p className="card-wrapper-text">
-                      <span>{t("donate.raise")}</span>
-                      <data className="yellow" value={item.raise}>
-                        ${item.raise}
-                      </data>
-                    </p>
-
-                    <p className="card-wrapper-text">
-                      <span>{t("donate.toGo")}</span>
-                      <data className="cyan" value={item.toGo}>
-                        ${item.toGo}
-                      </data>
-                    </p>
-                  </div>
+                  
 
                   <Link to="/donation">
                     <button className="btn btn-secondary">

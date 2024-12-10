@@ -10,7 +10,7 @@
 }
 
 .header-section h1 {
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   font-size: 36px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .slider-section .caption {
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   text-align: center;
   margin-top: 10px;
   font-size: 18px;
@@ -51,7 +51,7 @@
 }
 
 .mission-section h2 {
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@
 }
 
 .members-section h2 {
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   font-size: 32px;
   margin-bottom: 30px;
 }
@@ -121,7 +121,7 @@
 /* Member Card Icons */
 .member-icon {
   font-size: 50px;
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   margin-bottom: 10px; 
 }
 
@@ -134,7 +134,7 @@
 }
 
 .testimonials-section h2 {
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -148,7 +148,7 @@
 .testimonial-author {
   font-weight: bold;
   margin-top: 10px;
-  color: hsl(86, 45%, 54%);
+  color: #00bcd4;
 }
 
 /* Footer Section */
